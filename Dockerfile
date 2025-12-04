@@ -1,38 +1,28 @@
-FROM php:7.4-apache
+FROM php:8.2-apache
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
-COPY ./deployApi/ /var/www/html
+# Activer les modules Apache
+RUN a2enmod rewrite headers
 
-COPY ./deployApp/ /var/www/html
+# Installer Composer et les dépendances système nécessaires
+RUN apt-get update && apt-get install -y \
+    curl zip unzip git libzip-dev libpng-dev libjpeg-dev libfreetype6-dev \
+ && docker-php-ext-install zip gd \
+ && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /var/www/html
+# Copier l’API PHP dans un dossier dédié
+COPY ./deployApi/ /var/www/html/api
 
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf \
-&& curl -sSk https://getcomposer.org/installer | php -- --disable-tls \
-&& mv composer.phar /usr/local/bin/composer \
-&& apt-get update && apt-get install -y \
-    curl \
-    git \
-    libbz2-dev \
-    libfreetype6-dev \
-    libicu-dev \
-    libjpeg-dev \
-    libmcrypt-dev \
-    libpng-dev \
-    libreadline-dev \
-    libzip-dev \
-    libpq-dev \
-    unzip \
-    zip \
-&& rm -rf /var/lib/apt/lists/* \
-&& a2enmod rewrite headers \
-&& composer install --prefer-dist \
-&& composer dump-autoload --optimize \
-&& composer update
+# Copier l’app Angular dans la racine web Apache
+COPY ./deployApp/ /var/www/html/
 
-# Exposer le port 80 pour permettre les connexions entrantes
+WORKDIR /var/www/html/api
+
+# Installer les dépendances backend (API)
+RUN curl -sS https://getcomposer.org/installer | php \
+    && mv composer.phar /usr/local/bin/composer \
+    && composer install --prefer-dist --no-dev --optimize-autoloader
+
 EXPOSE 80
-
-# Définir l'entrée de l'application
 CMD ["apache2-foreground"]
