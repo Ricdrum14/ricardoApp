@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nom": "Dev",
+    "prenom": "Admin",
+    "email": "dev@admin.com",
+    "role": "admin",
+    "date_creation": "2025-11-10T16:21:52.131Z"
+  },
+  {
+    "id": 2,
+    "nom": "Dupont",
+    "prenom": "Alice",
+    "email": "alice.dupont@example.com",
+    "role": "utilisateur",
+    "date_creation": "2025-11-10T16:21:52.131Z"
+  },
+  {
+    "id": 3,
+    "nom": "Martin",
+    "prenom": "Thomas",
+    "email": "thomas.martin@example.com",
+    "role": "utilisateur",
+    "date_creation": "2025-11-10T16:21:52.131Z"
+  },
+  {
+    "id": 4,
+    "nom": "Bernard",
+    "prenom": "Sophie",
+    "email": "sophie.bernard@example.com",
+    "role": "utilisateur",
+    "date_creation": "2025-11-10T16:21:52.131Z"
+  },
+  {
+    "id": 5,
+    "nom": "Nguyen",
+    "prenom": "Paul",
+    "email": "paul.nguyen@example.com",
+    "role": "utilisateur",
+    "date_creation": "2025-11-10T16:21:52.131Z"
+  }
+]

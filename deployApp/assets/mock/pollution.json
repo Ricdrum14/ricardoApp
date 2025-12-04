@@ -1,0 +1,112 @@
+[
+  {
+    "id": "p001",
+    "titre": "Déversement d’huile",
+    "type": "chimique",
+    "description": "Pollution observée sur le port de Marseille, une nappe d’huile visible sur plusieurs mètres.",
+    "date": "2024-09-15",
+    "lieu": "Port de Marseille",
+    "latitude": "43.2965",
+    "longitude": "5.3698",
+    "photo": "assets/pollution1.jpeg"
+  },
+  {
+    "id": "p002",
+    "titre": "Déchets plastiques sur la plage",
+    "type": "plastique",
+    "description": "Accumulation de plastique après la tempête. Bouteilles et emballages en grande quantité.",
+    "date": "2024-10-02",
+    "lieu": "Plage du Prado",
+    "latitude": "43.255",
+    "longitude": "5.3849",
+    "photo": "assets/pollution2.jpeg"
+  },
+  {
+    "id": "p003",
+    "titre": "Fumée noire suspecte",
+    "type": "air",
+    "description": "Une épaisse fumée noire a été observée près de la zone industrielle de Fos-sur-Mer.",
+    "date": "2024-10-10",
+    "lieu": "Fos-sur-Mer",
+    "latitude": "43.4366",
+    "longitude": "4.9472",
+    "photo": "assets/pollution3.jpeg"
+  },
+  {
+    "id": "p004",
+    "titre": "Rivière polluée par des débris plastiques",
+    "type": "eau",
+    "description": "De nombreux sacs plastiques flottent à la surface de la rivière après des pluies intenses.",
+    "date": "2024-10-12",
+    "lieu": "Toulouse - Garonne",
+    "latitude": "43.6047",
+    "longitude": "1.4442",
+    "photo": "assets/pollution4.jpeg"
+  },
+  {
+    "id": "p005",
+    "titre": "Dépôt sauvage de gravats",
+    "type": "dépot",
+    "description": "Des gravats et déchets de construction abandonnés au bord d’un chemin forestier.",
+    "date": "2024-09-28",
+    "lieu": "Forêt de Fontainebleau",
+    "latitude": "48.4046",
+    "longitude": "2.7016",
+    "photo": "assets/pollution5.jpeg"
+  },
+  {
+    "id": "p006",
+    "titre": "Contamination chimique dans un ruisseau",
+    "type": "chimique",
+    "description": "Des traces de solvants industriels détectées dans un petit ruisseau à proximité d’une usine.",
+    "date": "2024-10-05",
+    "lieu": "Lyon - Parc de Gerland",
+    "latitude": "45.7274",
+    "longitude": "4.8357",
+    "photo": "assets/pollution6.jpeg"
+  },
+  {
+    "id": "p007",
+    "titre": "Pollution sonore importante",
+    "type": "sonore",
+    "description": "Nuisances sonores importantes causées par le trafic nocturne près du périphérique.",
+    "date": "2024-10-08",
+    "lieu": "Paris - Porte de Bagnolet",
+    "latitude": "48.8671",
+    "longitude": "2.4173",
+    "photo": "assets/pollution7.jpeg"
+  },
+  {
+    "id": "p008",
+    "titre": "Déchets ménagers dans un parc naturel",
+    "type": "dépot",
+    "description": "Papiers, plastiques et canettes retrouvés dans une zone de randonnée protégée.",
+    "date": "2024-09-20",
+    "lieu": "Parc du Mercantour",
+    "latitude": "44.0867",
+    "longitude": "7.2391",
+    "photo": "assets/pollution8.jpeg"
+  },
+  {
+    "id": "p009",
+    "titre": "Algues vertes en excès sur la plage",
+    "type": "eau",
+    "description": "Prolifération inhabituelle d’algues vertes sur la côte bretonne, signe probable d’un déséquilibre écologique.",
+    "date": "2024-09-10",
+    "lieu": "Plage de Saint-Brieuc",
+    "latitude": "48.5140",
+    "longitude": "-2.7650",
+    "photo": "assets/pollution9.jpeg"
+  },
+  {
+    "id": "p010",
+    "titre": "Feu de déchets industriels",
+    "type": "chimique",
+    "description": "Un incendie s’est déclaré dans un entrepôt de produits chimiques. Fumées toxiques observées.",
+    "date": "2024-10-14",
+    "lieu": "Rouen - Zone industrielle",
+    "latitude": "49.4432",
+    "longitude": "1.0993",
+    "photo": "assets/pollution10.jpeg"
+  }
+]
