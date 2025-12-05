@@ -1,0 +1,139 @@
+[
+    {
+      "id": 1,
+      "nom": "Saxophone",
+      "description": "Instrument à vent",
+      "prix": 1200,
+      "image": "/assets/images/saxophone.jpeg",
+      "categorieId": 1
+    },
+    {
+      "id": 2,
+      "nom": "Flûte traversière",
+      "description": "Instrument à vent",
+      "prix": 500,
+      "image": "/assets/images/flute-traversiere.jpg",
+      "categorieId": 1
+    },
+    {
+      "id": 3,
+      "nom": "Flûte à bec",
+      "description": "Instrument à vent",
+      "prix": 150,
+      "image": "/assets/images/flute-a-bec.jpg",
+      "categorieId": 1
+    },
+    {
+      "id": 4,
+      "nom": "Trompette",
+      "description": "Instrument à vent",
+      "prix": 800,
+      "image": "/assets/images/trompette.jpg",
+      "categorieId": 1
+    },
+    {
+      "id": 5,
+      "nom": "Guitare acoustique",
+      "description": "Instrument à cordes",
+      "prix": 600,
+      "image": "/assets/images/guitare-acoustique.jpg",
+      "categorieId": 2
+    },
+    {
+      "id": 6,
+      "nom": "Guitare électrique",
+      "description": "Instrument à cordes",
+      "prix": 1000,
+      "image": "/assets/images/guitare-electrique.jpg",
+      "categorieId": 2
+    },
+    {
+      "id": 7,
+      "nom": "Violoncelle",
+      "description": "Instrument à cordes",
+      "prix": 3000,
+      "image": "/assets/images/violoncelle.jpeg",
+      "categorieId": 2
+    },
+    {
+      "id": 8,
+      "nom": "Violon",
+      "description": "Instrument à cordes",
+      "prix": 1200,
+      "image": "/assets/images/violon.jpg",
+      "categorieId": 2
+    },
+    {
+      "id": 9,
+      "nom": "Harpe",
+      "description": "Instrument à cordes",
+      "prix": 4000,
+      "image": "/assets/images/harpe.jpg",
+      "categorieId": 2
+    },
+    {
+      "id": 10,
+      "nom": "Tambourin",
+      "description": "Instrument à percussion",
+      "prix": 50,
+      "image": "/assets/images/tambourine.jpeg",
+      "categorieId": 3
+    },
+    {
+      "id": 11,
+      "nom": "Caisse claire",
+      "description": "Instrument à percussion",
+      "prix": 400,
+      "image": "/assets/images/caisse-claire.jpg",
+      "categorieId": 3
+    },
+    {
+      "id": 12,
+      "nom": "Batterie",
+      "description": "Instrument à percussion",
+      "prix": 2000,
+      "image": "/assets/images/batterie.jpeg",
+      "categorieId": 3
+    },
+    {
+      "id": 13,
+      "nom": "Xylophone",
+      "description": "Instrument à percussion",
+      "prix": 600,
+      "image": "/assets/images/xylophone.jpg",
+      "categorieId": 3
+    },
+    {
+      "id": 14,
+      "nom": "Congas",
+      "description": "Instrument à percussion",
+      "prix": 800,
+      "image": "/assets/images/conga.jpeg",
+      "categorieId": 3
+    },
+    {
+      "id": 15,
+      "nom": "Maracas",
+      "description": "Instrument à percussion",
+      "prix": 30,
+      "image": "/assets/images/maracas.jpg",
+      "categorieId": 3
+    },
+    {
+      "id": 16,
+      "nom": "Basse",
+      "description": "Instrument à cordes",
+      "prix": 900,
+      "image": "/assets/images/basse.jpeg",
+      "categorieId": 2
+    },
+    {
+      "id": 17,
+      "nom": "Piano",
+      "description": "Instrument à cordes",
+      "prix": 5000,
+      "image": "/assets/images/piano.jpg",
+      "categorieId": 2
+    }
+  ]
+  
