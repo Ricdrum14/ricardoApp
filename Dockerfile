@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM php:8.1-apache
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
@@ -29,8 +29,6 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf \
 && a2enmod rewrite headers \
 && composer install --prefer-dist \
 && composer dump-autoload --optimize \
-&& composer update
-
 # Exposer le port 80 pour permettre les connexions entrantes
 EXPOSE 80
 
