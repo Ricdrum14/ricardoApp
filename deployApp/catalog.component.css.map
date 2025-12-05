@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/catalog/catalog.component.css"],
-  "sourcesContent": ["p {\n    font-family: 'Arial', sans-serif;\n    margin-top: 1rem;\n  }\n  \n  button {\n    transition: background-color 0.3s ease;\n  }\n  \n  button:hover {\n    background-color: #2563eb;\n  }\n  "],
-  "mappings": ";AAAA;AACI,eAAa,OAAO,EAAE;AACtB,cAAY;AACd;AAEA;AACE,cAAY,iBAAiB,KAAK;AACpC;AAEA,MAAM;AACJ,oBAAkB;AACpB;",
-  "names": []
-}

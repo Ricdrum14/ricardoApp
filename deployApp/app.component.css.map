@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.component.css"],
-  "sourcesContent": [".logo {\n    height: 60px; /* Taille du logo */\n    width: auto;\n    transition: transform 0.3s ease; /* Animation douce au survol */\n  }\n  \n  .logo:hover {\n    transform: scale(1.1); /* Agrandissement de 10% au survol */\n  }\n  \n  .cart-icon {\n    font-size: 1.5rem; /* Taille de l'ic\u00F4ne */\n    padding: 10px;\n    border-radius: 5px;\n    transition: background-color 0.3s ease, transform 0.2s ease;\n  }\n  \n  .cart-icon:hover {\n    background-color: #f3f4f6; /* Couleur de fond au survol */\n    transform: scale(1.05); /* L\u00E9ger zoom */\n  }\n  \n  .badge {\n    position: absolute;\n    top: -5px;\n    right: -5px;\n    background-color: #ff5252;\n    color: white;\n    border-radius: 50%;\n    font-size: 0.8rem;\n    padding: 3px 6px;\n  }\n\n  \n  "],
-  "mappings": ";AAAA,CAAC;AACG,UAAQ;AACR,SAAO;AACP,cAAY,UAAU,KAAK;AAC7B;AAEA,CAND,IAMM;AACH,aAAW,MAAM;AACnB;AAEA,CAAC;AACC,aAAW;AACX,WAAS;AACT,iBAAe;AACf,cAAY,iBAAiB,KAAK,IAAI,EAAE,UAAU,KAAK;AACzD;AAEA,CAPC,SAOS;AACR,oBAAkB;AAClB,aAAW,MAAM;AACnB;AAEA,CAAC;AACC,YAAU;AACV,OAAK;AACL,SAAO;AACP,oBAAkB;AAClB,SAAO;AACP,iBAAe;AACf,aAAW;AACX,WAAS,IAAI;AACf;",
-  "names": []
-}
