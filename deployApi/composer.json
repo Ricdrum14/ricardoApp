@@ -2,8 +2,8 @@
     "require": {
         "slim/slim": "^4.12",
         "slim/psr7": "^1.6",
-        "tuupola/slim-jwt-auth": "^4.0",
-        "firebase/php-jwt": "^6.10",
+        "tuupola/slim-jwt-auth": "^3.8",
+        "firebase/php-jwt": "^5.5",
         "nyholm/psr7": "^1.8",
         "nyholm/psr7-server": "^1.0",
         "guzzlehttp/psr7": "^2.6",
